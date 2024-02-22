@@ -1,5 +1,5 @@
 import books from "./assets/childrensbooks.json";
-import BookShow from "./bookShow";
+import BookShow from "./BookShow";
 
 function BookList() {
   const content = books.map((book) => {
